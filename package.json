@@ -1,0 +1,27 @@
+{
+    "author": "vladimir dupelev",
+    "name": "sigurd",
+    "description": "Async BL framework",
+    "version": "0.0.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "main": "./sigurd.js",
+    "directories": {
+        "lib": "./lib",
+        "test": "./test"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+
+    "devDependencies": {
+        "mocha": ">=1.0.0",
+        "mocha-teamcity-reporter": ">=0.0.1"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
